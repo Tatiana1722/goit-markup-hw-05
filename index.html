@@ -63,7 +63,7 @@
           <h1 class="effective-solutions">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
           </h1>
-          <button type="button" class="button-main">Замовити послугу</button>
+          <button type="button" class="button-main" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="section strenght-sides">
@@ -361,6 +361,13 @@
           </ul>
         </div>
       </section>
+      <section class="section">
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+           <button data-modal-close></button>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container footer">
@@ -425,5 +432,6 @@
         </div>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
